@@ -20,4 +20,4 @@ jobs:
       env:
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
       run: |
-        npx surge ./src tawdry-top.surge.sh --token $SURGE_TOKEN  
+        npx surge Devops-primerPacrial/Deploy/src/ tawdry-top.surge.sh --token $SURGE_TOKEN  
